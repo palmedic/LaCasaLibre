@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+.fullscreen-quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 0 20px;
+  background: linear-gradient(#f9f7f2, #f3ece4);
+}
+
+.logo {
+  max-width: 360px;
+  width: 100%;
+  margin-bottom: 40px;
+  background: transparent;
+  height: auto;
+}
+
+.fullscreen-quote blockquote {
+  font-family: 'Georgia', serif;
+  font-size: 1.8rem;
+  font-style: italic;
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+.fullscreen-quote blockquote .attribution {
+  font-size: 0.6em;
+}
+
+.intro, .closing {
+  max-width: 1000px;
+  margin: 80px auto 120px auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.intro p {
+  font-family: 'Georgia', serif;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+}
+
+.three-freedoms {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 120px auto;
+  padding: 0 20px;
+  gap: 40px;
+  text-align: left;
+}
+
+.freedom {
+  flex: 1 1 300px;
+}
+
+.freedom h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Georgia', serif;
+}
+
+.freedom p {
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.visual {
+  width: 100%;
+  height: 60vh;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/c/c0/Makhtesh_Ramon.jpg') center/cover no-repeat;
+}
+
+.closing p {
+  font-family: 'Georgia', serif;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: 300;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #777;
+  margin: 40px 0;
+}
