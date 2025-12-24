@@ -13,6 +13,7 @@
   }
   .fullscreen-quote {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -20,12 +21,21 @@
     padding: 0 20px;
     background: linear-gradient(#f9f7f2, #f3ece4);
   }
+  .logo {
+    max-width: 360px;
+    width: 100%;
+    margin-bottom: 40px;
+    background: transparent;
+  }
   .fullscreen-quote blockquote {
     font-family: 'Georgia', serif;
     font-size: 1.8rem;
     font-style: italic;
     max-width: 800px;
     line-height: 1.5;
+  }
+  .fullscreen-quote blockquote .attribution {
+    font-size: 0.6em;
   }
   .intro, .closing {
     max-width: 1000px;
@@ -89,8 +99,9 @@
 <body>
 
 <section class="fullscreen-quote">
+  <img src="LaCasaLibreLogo.png" alt="La Casa Libre Logo" class="logo">
   <blockquote>
-    “If I had fifty-three minutes to spend as I liked, I should walk at my leisure toward a spring of fresh water.”<br>— The Little Prince, Chapter 23
+    "If I had fifty-three minutes to spend as I liked, I should walk at my leisure toward a spring of fresh water."<br><span class="attribution">— The Little Prince, Chapter 23</span>
   </blockquote>
 </section>
 
